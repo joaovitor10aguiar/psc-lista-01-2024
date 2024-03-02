@@ -1,0 +1,55 @@
+#Ex 4 - Faça um algoritmo que escreva “Olá, mundo” na tela do console. Utilize o Portugol Studio e/ou caderno.
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Olá Mundo")
+	}
+}
+
+#Ex 5 - Faça um algoritmo que leia o seu nome e escreva o seu nome no console. Utilize o Portugol Studio e/ou caderno.
+programa
+{
+
+	cadeia nome
+	funcao inicio()
+	{
+	escreva("Digite o seu nome:")
+	leia(nome)
+	escreva("Seu nome é " , nome)
+	}
+}
+
+#Ex 6 - Faça um algoritmo que leia o seu nome, idade e altura. Após isso imprima esses dados no console. Utilize o Portugol Studio e/ou caderno.
+programa
+{
+
+	cadeia nome
+	inteiro idade
+	real altura
+	funcao inicio()
+	{
+	escreva("Digite o seu nome:" )
+	leia(nome)
+	escreva("Seu nome é " , nome)
+	
+	escreva("Informe sua idade: ")
+	leia(idade)
+	escreva("Sua idade é " , idade)
+	
+	escreva ("Informe sua altura: ")
+	leia(altura)
+	escreva("Sua altura é de " , altura) 
+	
+	}
+
+#Ex 7 - Faça um algoritmo que escreva “Olá, Mundo” na tela do console. Utilize a linguagem Java para isso.
+public class OlaMundo {
+    public static void main(String[] args) {
+        System.out.println("Olá, Mundo!");
+    }
+}
+
+
+
